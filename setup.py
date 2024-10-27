@@ -21,7 +21,8 @@ setup(
     #executable_name = package.file_name
     entry_points={
         'console_scripts': [
-            "aav_braking_exe = aav_braking.braking_pub:main"
+            "braking_pub_exe = aav_braking.braking_pub:main",
+            "braking_sub_exe = aav_braking.braking_sub:main"
         ],
     },
 )
